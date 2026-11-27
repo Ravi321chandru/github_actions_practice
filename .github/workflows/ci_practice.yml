@@ -28,3 +28,12 @@ jobs:
 
       - name: Build
         run: npm run build
+
+  
+  notify-success:
+    runs-on: ubuntu-latest
+    needs: build-and-test
+
+    steps:
+      - name: Confirm dependency worked
+        run: echo "build-and-test finished successfully, so this job was allowed to run"
