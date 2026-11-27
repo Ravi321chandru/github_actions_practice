@@ -32,6 +32,7 @@ export default function App() {
           <h1>Make Your Dream Trip a Reality</h1>
           <p>Unforgettable trips to the world's most beautiful places.</p>
           <a className="btn" href="#destinations">Explore Destinations</a>
+        </section>
 
         <section id="destinations" className="section">
           <h2>Popular Destinations</h2>
