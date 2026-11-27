@@ -4,7 +4,7 @@ import App from './App.jsx'
 describe('App', () => {
   it('renders the hero headline', () => {
     render(<App />)
-    expect(screen.getByRole('heading', { name: /discover your next adventure/i })).toBeTruthy()
+    expect(screen.getByRole('heading', { name: /make your dream trip a reality/i })).toBeTruthy()
   })
 
   it('renders all destination cards', () => {
