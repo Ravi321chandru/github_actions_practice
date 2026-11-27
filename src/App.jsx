@@ -29,7 +29,7 @@ export default function App() {
 
       <main id="top">
         <section className="hero" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)), url(${img('photo-1488646953014-85cb44e25828', 1600)})` }}>
-          <h1>Discover Your Next Adventure</h1>
+          <h1>Make Your Dream Trip a Reality</h1>
           <p>Unforgettable trips to the world's most beautiful places.</p>
           <a className="btn" href="#destinations">Explore Destinations</a>
         </section>
